@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/xivtech/static/css/main.57b07063.css",
+    "main.js": "/xivtech/static/js/main.9b69c893.js",
+    "static/js/787.966dd8f7.chunk.js": "/xivtech/static/js/787.966dd8f7.chunk.js",
+    "static/media/cl2.jpg": "/xivtech/static/media/cl2.1834950f4b52b4378e2e.jpg",
+    "static/media/p1.png": "/xivtech/static/media/p1.e0b53b689fd9881066ec.png",
+    "static/media/x4.jpg": "/xivtech/static/media/x4.24a043b73556af2ff8ad.jpg",
+    "static/media/p3.jpg": "/xivtech/static/media/p3.5f199447c64f6bba94be.jpg",
+    "static/media/p2.jpg": "/xivtech/static/media/p2.8bc14b86ce6eff22c3cb.jpg",
+    "static/media/x3.jpg": "/xivtech/static/media/x3.f27956e4dfc100baae79.jpg",
+    "static/media/x1.jpg": "/xivtech/static/media/x1.f659dd3523adcf889393.jpg",
+    "static/media/x2.jpg": "/xivtech/static/media/x2.915609b1f6ec724678bf.jpg",
+    "static/media/a2.jpg": "/xivtech/static/media/a2.37c33f5b73990ae401e5.jpg",
+    "static/media/a1.jpg": "/xivtech/static/media/a1.84011998f2be75f8fe58.jpg",
+    "static/media/rp1.jpg": "/xivtech/static/media/rp1.064df43492c63a1d9e50.jpg",
+    "static/media/rp2.jpg": "/xivtech/static/media/rp2.d6d4b7703bc14f99bb7e.jpg",
+    "static/media/logo.png": "/xivtech/static/media/logo.af52e33fd9677d595052.png",
+    "index.html": "/xivtech/index.html",
+    "main.57b07063.css.map": "/xivtech/static/css/main.57b07063.css.map",
+    "main.9b69c893.js.map": "/xivtech/static/js/main.9b69c893.js.map",
+    "787.966dd8f7.chunk.js.map": "/xivtech/static/js/787.966dd8f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57b07063.css",
+    "static/js/main.9b69c893.js"
+  ]
+}
