@@ -4,7 +4,7 @@ import logo from '../../Assets/logo.png'
 
 export default function Footer() {
   return (
-    <div style={{ backgroundColor: "black", color: "white" }}>
+    <footer style={{ backgroundColor: "black", color: "white" }}>
       <div className="row p-5">
         <div className="col-lg-3 col-md-6 col-sm-10">
           <div className="d-flex">
@@ -52,6 +52,6 @@ export default function Footer() {
       <p className="text-white text-center mt-2">
         © 2021 XivTech, Inc. All Rights Reserved
       </p>
-    </div>
+    </footer>
   );
 }

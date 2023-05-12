@@ -1,0 +1,33 @@
+.contact-form{
+    position: relative;
+    right:10rem;
+
+}
+@media (max-width: 1111px) {
+    /* CSS styles here */
+  
+    .contact-form{
+        position: relative;
+        right:5rem;
+    
+    }
+  
+  
+  }
+  
+@media (max-width: 769px) {
+    /* CSS styles here */
+  
+    .contact-form{
+position:static;
+
+
+    
+    }
+  .parentformdiv{
+display: flex;
+justify-content: center;
+  }
+  
+  }
+  

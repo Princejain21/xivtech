@@ -41,6 +41,7 @@ export default function Card2(props) {
         <button
           className="btn getintouchbtn mt-5 px-5 py-3"
           style={{ backgroundColor: "black" }}
+          onClick={()=>{window.location.pathname="/contact"}}
         >
           {" "}
           Get in Touch

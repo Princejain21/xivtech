@@ -6,8 +6,7 @@ import image1 from "../../Assets/rp1.jpg";
 import image2 from "../../Assets/a2.jpg";
 import image3 from "../../Assets/cl2.jpg";
 import image4 from "../../Assets/a1.jpg";
-import { Link } from "react-router-dom";
-
+import {Link} from 'react-router-dom'
 export default function Nav() {
   const [change, setchange] = useState(false);
   const [closeIcon, setcloseICon] = useState(false);
@@ -149,7 +148,7 @@ export default function Nav() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link " to="#">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>
@@ -182,7 +181,7 @@ export default function Nav() {
           <button
             className="btn btn-outline-primary mx-5 mb-3 border-lg border-primary font-weight-bold px-4 py-3"
             onClick={() => {
-              console.log("hello");
+             window.location.pathname="/contact"
             }}
           >
             Let's Talk
