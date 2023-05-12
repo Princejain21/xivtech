@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+
+
+body{
+  font-family: Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown-title{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdown-title:hover{
+  cursor: pointer;
+  color: #233f5c;
+}
+.main-home-heading{
+  font-size: 4.9rem !important;
+  font-family: Quarto Light,source-han-serif-sc,serif !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-body{
+  background-color: #202226 !important;
+}
+.hair-girl-img{
+  position: relative;
+  bottom: 50px;
+}
+
+.boy-img{
+  position: relative;
+  bottom: 100px;
+}
+
+.breakline{
+  position: relative;
+}
+.breakline::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 50px; /* Adjust the distance of the underline from the div */
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+
+.getintouchbtn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  transition: background-color 0.3s;
+  color:white
+}
+
+.getintouchbtn::before {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  content: "Get in Touch";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /* transition: left 0.3s; */
+  transition: ease-in 1s;
+  color: black !important;
+  font-weight:bold !important;
 }
 
-.App-link {
-  color: #61dafb;
+.getintouchbtn:hover {
+  background-color: transparent;
+  font-weight: bold;
+  color: black !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.getintouchbtn:hover::before {
+  left: 0;
+  color:black !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media (max-width: 757px) {
+  /* CSS styles here */
+
+  .main-home-heading{
+    font-size: 2.5rem !important;
+    font-family: Quarto Light,source-han-serif-sc,serif !important;
   }
-  to {
-    transform: rotate(360deg);
+  .main-bottom-heading{
+    font-size: 16px!important;
   }
+
+  .align-design-refine{
+    font-size: 440% !important;
+  }
+  
+  .media-heading{
+    font-size: 200% !important;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  /* CSS styles here */
+
 }
