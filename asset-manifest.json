@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xivtech/static/css/main.57b07063.css",
-    "main.js": "/xivtech/static/js/main.9b69c893.js",
+    "main.css": "/xivtech/static/css/main.a1f720e0.css",
+    "main.js": "/xivtech/static/js/main.0cf61b20.js",
     "static/js/787.966dd8f7.chunk.js": "/xivtech/static/js/787.966dd8f7.chunk.js",
     "static/media/cl2.jpg": "/xivtech/static/media/cl2.1834950f4b52b4378e2e.jpg",
     "static/media/p1.png": "/xivtech/static/media/p1.e0b53b689fd9881066ec.png",
@@ -17,12 +17,12 @@
     "static/media/rp2.jpg": "/xivtech/static/media/rp2.d6d4b7703bc14f99bb7e.jpg",
     "static/media/logo.png": "/xivtech/static/media/logo.af52e33fd9677d595052.png",
     "index.html": "/xivtech/index.html",
-    "main.57b07063.css.map": "/xivtech/static/css/main.57b07063.css.map",
-    "main.9b69c893.js.map": "/xivtech/static/js/main.9b69c893.js.map",
+    "main.a1f720e0.css.map": "/xivtech/static/css/main.a1f720e0.css.map",
+    "main.0cf61b20.js.map": "/xivtech/static/js/main.0cf61b20.js.map",
     "787.966dd8f7.chunk.js.map": "/xivtech/static/js/787.966dd8f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57b07063.css",
-    "static/js/main.9b69c893.js"
+    "static/css/main.a1f720e0.css",
+    "static/js/main.0cf61b20.js"
   ]
 }
