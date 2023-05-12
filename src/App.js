@@ -10,7 +10,6 @@ function App() {
       <Nav/>
     <Routes>
      <Route path="/xivtech" element={<Home/>} />
-     {/* <Route path="/ram" element={<h1>hello seconde</h1>} /> */}
     </Routes>
     <Footer/>
     </Router>
