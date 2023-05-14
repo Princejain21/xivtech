@@ -11,11 +11,13 @@ export default function Nav() {
   const [change, setchange] = useState(false);
   const [closeIcon, setcloseICon] = useState(false);
   const [foucsdropdown, setfocusdropdown] = useState(false);
+  
   const handleMouseEnter = () => {
     setchange(true);
     setfocusdropdown(true);
   };
 
+  
   const handleMouseLeave = () => {
     setchange(false);
   };
@@ -178,14 +180,12 @@ export default function Nav() {
               />
             )}
           </form>
-          <button
+          <Link
             className="btn btn-outline-primary mx-5 mb-3 border-lg border-primary font-weight-bold px-4 py-3"
-            onClick={() => {
-             window.location.pathname="/contact"
-            }}
+            to="/contact"
           >
             Let's Talk
-          </button>
+          </Link>
         </div>
       </nav>
       {foucsdropdown && DropdownElement()}

@@ -38,14 +38,14 @@ export default function Card2(props) {
       </div>
 
       {props.showbutton && (
-        <button
+        <Link
           className="btn getintouchbtn mt-5 px-5 py-3"
           style={{ backgroundColor: "black" }}
-          onClick={()=>{window.location.pathname="/contact"}}
+          to="/contact"
         >
           {" "}
           Get in Touch
-        </button>
+        </Link>
       )}
     </div>
   );
